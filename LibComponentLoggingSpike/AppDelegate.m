@@ -10,6 +10,20 @@
 
 #import "ViewController.h"
 
+#import <LibComponentLogging-Core/lcl.h>
+//#import "LCLLogFileConfig.h"
+
+// undef logger defined in RestKit
+#if defined(_lcl_logger)
+#   undef  _lcl_logger
+#endif
+
+#import <LibComponentLogging-LogFile/LCLLogFile.h>
+//#import <LibComponentLogging-qlog/qlog.h>
+//#define lcl_cDefaultLogComponent
+//#define ql_component lcl_cDefaultLogComponent
+
+
 @implementation AppDelegate
 
 - (void)dealloc
@@ -21,6 +35,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    lcl_configure_by_name("*", lcl_vTrace);
+
+    lcl_log(lcl_cMain, lcl_vCritical, @"Test");
+    qlcritical(@"Test qlog");
+    
+    printf("Log messages are written to %s. You can open Console.app to view the log file, it's listed in the ~/Library/Logs section.\n", [[LCLLogFile path] UTF8String]);
+
+
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005EF6EC163C7F9F0099E2E5 /* lcl_config_extensions.h.pods in Resources */ = {isa = PBXBuildFile; fileRef = 005EF6EA163C7F9F0099E2E5 /* lcl_config_extensions.h.pods */; };
+		005EF6ED163C7F9F0099E2E5 /* lcl_config_components.h.pods in Resources */ = {isa = PBXBuildFile; fileRef = 005EF6EB163C7F9F0099E2E5 /* lcl_config_components.h.pods */; };
 		00999D88163C7A3F00B9D9BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00999D87163C7A3F00B9D9BD /* UIKit.framework */; };
 		00999D8A163C7A3F00B9D9BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00999D89163C7A3F00B9D9BD /* Foundation.framework */; };
 		00999D8C163C7A3F00B9D9BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00999D8B163C7A3F00B9D9BD /* CoreGraphics.framework */; };
@@ -18,13 +20,17 @@
 		00999D9E163C7A3F00B9D9BD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00999D9D163C7A3F00B9D9BD /* Default-568h@2x.png */; };
 		00999DA1163C7A3F00B9D9BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00999DA0163C7A3F00B9D9BD /* ViewController.m */; };
 		00999DA4163C7A3F00B9D9BD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00999DA2163C7A3F00B9D9BD /* ViewController.xib */; };
+		73AADA6F20334A21AD528318 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3937BB8BF63D4EE4B78E14A7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		003835F8163C80BE0067E341 /* LCLLogFileConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLLogFileConfig.h; sourceTree = "<group>"; };
+		005EF6EA163C7F9F0099E2E5 /* lcl_config_extensions.h.pods */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lcl_config_extensions.h.pods; sourceTree = "<group>"; };
+		005EF6EB163C7F9F0099E2E5 /* lcl_config_components.h.pods */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lcl_config_components.h.pods; sourceTree = "<group>"; };
 		00999D83163C7A3F00B9D9BD /* LibComponentLoggingSpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibComponentLoggingSpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		00999D87163C7A3F00B9D9BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		00999D89163C7A3F00B9D9BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		00999D8B163C7A3F00B9D9BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00999D87163C7A3F00B9D9BD /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00999D89163C7A3F00B9D9BD /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00999D8B163C7A3F00B9D9BD /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		00999D8F163C7A3F00B9D9BD /* LibComponentLoggingSpike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LibComponentLoggingSpike-Info.plist"; sourceTree = "<group>"; };
 		00999D91163C7A3F00B9D9BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00999D93163C7A3F00B9D9BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,6 +43,8 @@
 		00999D9F163C7A3F00B9D9BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		00999DA0163C7A3F00B9D9BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		00999DA3163C7A3F00B9D9BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		1F00F67F2CEC4CA0B8C1ED32 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		3937BB8BF63D4EE4B78E14A7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 				00999D88163C7A3F00B9D9BD /* UIKit.framework in Frameworks */,
 				00999D8A163C7A3F00B9D9BD /* Foundation.framework in Frameworks */,
 				00999D8C163C7A3F00B9D9BD /* CoreGraphics.framework in Frameworks */,
+				73AADA6F20334A21AD528318 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +65,13 @@
 		00999D78163C7A3F00B9D9BD = {
 			isa = PBXGroup;
 			children = (
+				003835F8163C80BE0067E341 /* LCLLogFileConfig.h */,
+				005EF6EA163C7F9F0099E2E5 /* lcl_config_extensions.h.pods */,
+				005EF6EB163C7F9F0099E2E5 /* lcl_config_components.h.pods */,
 				00999D8D163C7A3F00B9D9BD /* LibComponentLoggingSpike */,
 				00999D86163C7A3F00B9D9BD /* Frameworks */,
 				00999D84163C7A3F00B9D9BD /* Products */,
+				1F00F67F2CEC4CA0B8C1ED32 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +89,7 @@
 				00999D87163C7A3F00B9D9BD /* UIKit.framework */,
 				00999D89163C7A3F00B9D9BD /* Foundation.framework */,
 				00999D8B163C7A3F00B9D9BD /* CoreGraphics.framework */,
+				3937BB8BF63D4EE4B78E14A7 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +131,7 @@
 				00999D7F163C7A3F00B9D9BD /* Sources */,
 				00999D80163C7A3F00B9D9BD /* Frameworks */,
 				00999D81163C7A3F00B9D9BD /* Resources */,
+				C4A00EC67CA7487F9088365D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,10 +178,29 @@
 				00999D9C163C7A3F00B9D9BD /* Default@2x.png in Resources */,
 				00999D9E163C7A3F00B9D9BD /* Default-568h@2x.png in Resources */,
 				00999DA4163C7A3F00B9D9BD /* ViewController.xib in Resources */,
+				005EF6EC163C7F9F0099E2E5 /* lcl_config_extensions.h.pods in Resources */,
+				005EF6ED163C7F9F0099E2E5 /* lcl_config_components.h.pods in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4A00EC67CA7487F9088365D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		00999D7F163C7A3F00B9D9BD /* Sources */ = {
@@ -253,6 +287,7 @@
 		};
 		00999DA8163C7A3F00B9D9BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F00F67F2CEC4CA0B8C1ED32 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LibComponentLoggingSpike/LibComponentLoggingSpike-Prefix.pch";
@@ -264,6 +299,7 @@
 		};
 		00999DA9163C7A3F00B9D9BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F00F67F2CEC4CA0B8C1ED32 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LibComponentLoggingSpike/LibComponentLoggingSpike-Prefix.pch";
@@ -292,6 +328,7 @@
 				00999DA9163C7A3F00B9D9BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
